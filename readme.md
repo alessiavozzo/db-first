@@ -3,6 +3,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 
 Cosa mi serve sapere?
 - id
+- identificativo univoco dell'auto (VIN = vehicle identification number) sono 17 caratteri alfanumerici
 - marca
 - modello
 - anno

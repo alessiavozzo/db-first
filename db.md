@@ -1,7 +1,8 @@
 DB_name: car_dealer
 Table_name: cars
 
-- id | INDEX | PK | UNIQUE | BIGINT | NOTNULL |AI
+- id | INDEX | PK | UNIQUE | BIGINT | NOTNULL | AI
+- VIN | CHAR(17) | UNIQUE | NOTNULL | DEFAULT("N/A")
 - brand | VARCHAR(30) | NOTNULL
 - model | VARCHAR(50) | NOTNULL
 - year | YEAR | NOTNULL
@@ -10,7 +11,7 @@ Table_name: cars
 - plate_number | CHAR(7) | NULL
 - image | VARCHAR(255) | NULL |DEFAULT("insert-default-pic-url")
 - description | TEXT | NULL
-- km | MEDIUMINT | NOTNULL
+- mileage | MEDIUMINT | NOTNULL
 - engine | VARCHAR(50) | NULL
 - cubic_capacity | VARCHAR(10) | NOTNULL
 - horsepower | SMALLINT | NOTNULL
