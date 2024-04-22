@@ -1,2 +1,5 @@
-# DESCRIZIONE
-Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+DB_name: car_dealer
+Table_name: cars
+
+# DB car dealer
+
