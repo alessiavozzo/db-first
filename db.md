@@ -9,7 +9,7 @@ Table_name: cars
 - origin | VARCHAR(20) | NULL
 - fuel | VARCHAR(20) | NOTNULL
 - plate_number | CHAR(7) | NULL
-- image | VARCHAR(255) | NULL |DEFAULT("insert-default-pic-url")
+- image | VARCHAR(255) | NULL | DEFAULT("insert-default-pic-url")
 - description | TEXT | NULL
 - mileage | MEDIUMINT | NOTNULL
 - engine | VARCHAR(50) | NULL
@@ -37,3 +37,7 @@ Table_name: cars
 
 | ID | VIN | Brand | Model | Year | Origin | Fuel | plate_number | Image | Description | Mileage | Engine | Cubic_capacity | Horsepower | Seats_number | Trasmission_type | Doors_number | Optionals | Emissions_class | Weight | Length | Width | Height | Color | Matriculation_date | Matriculations_number | Condition | Price | Is_available | Notes
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||
