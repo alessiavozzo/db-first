@@ -6,7 +6,7 @@ Table_name: cars
 - brand | VARCHAR(30) | NOTNULL
 - model | VARCHAR(50) | NOTNULL
 - year | YEAR | NOTNULL
-- origin (italia, estero etc) | VARCHAR(20) | NULL
+- origin | VARCHAR(20) | NULL
 - fuel | VARCHAR(20) | NOTNULL
 - plate_number | CHAR(7) | NULL
 - image | VARCHAR(255) | NULL |DEFAULT("insert-default-pic-url")
@@ -32,3 +32,8 @@ Table_name: cars
 - is_available | TINYINT | NOTNULL | DEFAULT(1)
 - notes | TEXT | NULL
 
+
+# TABLE
+
+| ID | VIN | Brand | Model | Year | Origin | Fuel | plate_number | Image | Description | Mileage | Engine | Cubic_capacity | Horsepower | Seats_number | Trasmission_type | Doors_number | Optionals | Emissions_class | Weight | Length | Width | Height | Color | Matriculation_date | Matriculations_number | Condition | Price | Is_available | Notes
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
