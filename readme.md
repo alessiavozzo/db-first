@@ -6,9 +6,9 @@ Cosa mi serve sapere?
 - marca
 - modello
 - anno
-- provenienza (italia, estero etc)
-- alimentazione
-- numero di targa
+- provenienza (italia, stato estero etc)
+- alimentazione (benzina, metano, diesel, elettrica, ibrida)
+- numero di targa (sono 2 lettere 3 numeri e altre 2 lettere)
 - foto
 - descrizione
 - chilometraggio
@@ -23,9 +23,11 @@ Cosa mi serve sapere?
 - peso
 - lunghezza
 - larghezza
+- ltezza
 - colore
 - ultima immatricolazione
 - numero immatricolazioni
 - condizioni veicolo
 - prezzo
+- disponibilità
 - note varie
